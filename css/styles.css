@@ -11,6 +11,8 @@ header{
      border-bottom: 1px solid #e7e9fc;
     box-shadow: 0 1px 6px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 2px 1px 0 rgba(46, 47, 66, 0.08);
     background: #fff;
+    padding-top: 18px;
+    padding-bottom: 18px;
 }
 
 .burger-btn{
@@ -319,7 +321,7 @@ height: 24px;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  gap: 104px;
+  gap: 72px;
   padding: 0;
   list-style: none;
   align-content: center;
@@ -363,6 +365,7 @@ height: 24px;
  gap: 24px;
  flex-wrap: wrap;
  justify-content: space-between;
+ padding-left: 0;
 }
 
 .feature-item{
@@ -489,10 +492,7 @@ padding-right: 16px;
     text-align: center; 
 }
 .team-info{
-    padding-left: 28px;
-    padding-right: 28px;
-    padding-bottom: 98px;
-    padding-top: 208px;
+    padding: 32px 0;
 }
 .card-text{
     font-family: "Roboto", sans-serif;
@@ -575,9 +575,7 @@ color: #2e2f42;
  .portfolio-thumb {
   position: relative;
   overflow: hidden;
-  height: 280px;
-  width: 288px;
- }
+  }
 .overlay-text {
   position: absolute;
   top: 0;
@@ -704,8 +702,7 @@ color: #fff;
   letter-spacing: 0.02em;
   width: 100%;
   margin-bottom: 16px;
-  display: flex;
-  align-items: center;
+   align-items: center;
   text-align: center;
  }
 .footer-button {
@@ -1491,6 +1488,8 @@ header{
     line-height: 1.17;
     display: inline-block;
     margin-bottom: 16px;
+    margin-left: 0;
+    padding-left:0;
 }
 .logo-blue{
     color: #4D5AE5;
@@ -1521,6 +1520,8 @@ header{
   letter-spacing: 0.02em;
   margin-bottom: 16px; 
   text-align: center;
+  margin-left:0;
+  padding-left:0;
  }
  .footer-social-title-subscribe{
   font-weight: 500;
@@ -1531,6 +1532,7 @@ header{
   letter-spacing: 0.02em;
   margin-bottom: 16px; 
   text-align: left;
+  
  }
 .footer-container{
     display: flex;
@@ -1647,16 +1649,15 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cu
  }
 
 .footer-email {
-  margin-left: 80px;
+  margin-left: 24px
 }
 .form-subscribe{
   display: flex;
   align-items: baseline;
-  gap: 24px;
-  padding-left: 16px;
+   gap: 24px;
   padding-right: 16px;
   padding-bottom: 16px;
-  padding-top: 16px;
+  flex-direction: row;
 }
 
 .footer-social-title-subscribe{
@@ -2136,10 +2137,9 @@ header{
      display: flex;
  margin: 0;
  list-style: none;
- gap: 24px;
+ gap:  72px 24px;
  row-gap: 24px;
- column-gap: 72px;
- flex-wrap: wrap;
+  flex-wrap: wrap;
  justify-content: space-between;
 }
 
@@ -2218,7 +2218,7 @@ header{
 .social-lists{
   display: flex;
   justify-content: center;
-  gap: 24px;
+  gap:  64px 24px;
   gap: 98px;
   flex-wrap:wrap; 
   padding: 0;
@@ -2336,7 +2336,7 @@ header{
 .portfolio-list{
     display: flex;
     flex-wrap:wrap; 
-    gap: 24px;
+    gap:  72px 24px;
     justify-content: center;
     padding: 0;
     list-style: none;   
@@ -2417,6 +2417,8 @@ header{
     display: inline-block;
     margin-bottom: 16px;
     text-align: left;
+    margin-left: 0;
+    padding-left:0;
 }
 .logo-blue{
     color: #4D5AE5;
@@ -2437,6 +2439,7 @@ header{
   flex-direction: column;
    gap: 16px;
    margin-bottom: 16px;
+   padding-left: 164px;
 }
 .footer-social-title {
   font-weight: 500;
@@ -2446,6 +2449,8 @@ header{
   font-family: "Roboto",sans-serif;
   letter-spacing: 0.02em;
   margin-bottom: 16px; 
+  margin-left: 0;
+  padding-left:0;
  }
 .footer-container{
    margin: 0 auto;
@@ -2453,6 +2458,7 @@ header{
    flex-wrap: wrap;
   align-items: flex-start;
   flex-direction: row;
+  justify-content: space-between;
   }
 .footer-left,
 .footer-social,
@@ -2485,10 +2491,7 @@ header{
   border-radius: 4px;
   cursor: pointer;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    margin-top: 144px;
-    margin-left: 24px;
-    margin-right: 207px;
-    }
+     }
 .footer-button:hover,
 .footer-button:focus {
   background-color: #404bbf;
@@ -2504,6 +2507,7 @@ header{
     gap: 16px;
     padding: 0;
      list-style: none;
+     justify-content: left;
 }
 
 
@@ -2648,8 +2652,8 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cu
   width: 264px;
    color: #FFFFFF;
   text-align: left;
-  margin:16px;
- margin-bottom: 16px;
+   padding:16px;
+   
  }
 .icon{
    margin: 16px;
@@ -2670,6 +2674,8 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cu
     letter-spacing: 0.04em;
     padding-left: 16px;
     color: #ffffff;
+    margin-top: 18px;
+    margin-bottom: 96px;
 }
 .footer-button{
     border-radius: 4px;
