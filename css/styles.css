@@ -13,6 +13,8 @@ header{
     background: #fff;
     align-items: center; 
     justify-content: space-between; 
+    padding-top: 16px;
+    padding-bottom: 16px;
  }
 
 .burger-btn{
@@ -81,8 +83,7 @@ header{
     justify-content: center; 
     position: relative;
     background-image: linear-gradient(rgba(46,47,66,0.7), rgba(46,47,66,0.7)), 
-    url('../images/people-office.jpg'),
-     url("../images/people-office-m-2.jpg");
+    url('../images/people-office.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -90,9 +91,27 @@ header{
     text-align: center;  
     max-width: 320px;
     margin: 0 auto;
-
 }
-    main section{
+.hero-section{
+    background-color: #2E2F42B2;
+    color: white;
+    padding: 96px 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center; 
+    position: relative;
+    background-image: linear-gradient(rgba(46,47,66,0.7), rgba(46,47,66,0.7)), 
+       url("../images/people-office-m-2.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: #2E2F42B2;
+    text-align: center;  
+    max-width: 320px;
+    margin: 0 auto; 
+ }
+ main section{
         color: black; 
  }
  .hero-title{
@@ -135,13 +154,12 @@ background: #fff;
 position: relative;
 padding-top: 72px;
 padding-bottom: 40px;
-
-display: flex;
 flex-direction: column;
 height: 100%;
+margin: 16px;
 }
 .mobile-menu-contacts{
-    margin: 48px;
+    margin-bottom: 48px;
 }
 .mobile-menu-close{
    width: 24px;
@@ -375,11 +393,13 @@ height: 24px;
     box-sizing: border-box; */
      text-align: center; 
      gap: 72px;
+     margin-bottom: 8px;
 } 
 .feature-icon{
    width: 64px;
    height: 64px; 
    fill: #2E2F42;
+  
 }
 
 .feature-title{
@@ -394,8 +414,6 @@ text-align: center;
 color: #2e2f42;
 text-align: center;
 gap: 8px;
- padding-left: 16px;
-padding-right: 16px;
 }
 .feature-text{
      display: flex;
@@ -407,8 +425,7 @@ padding-right: 16px;
     align-content: center;
     color: #434455;
     gap: 72px;
-    width: 288px;
-    text-align: left;
+     text-align: left;
 }
 .advantages-section{
     padding-bottom: 98px;
@@ -695,8 +712,7 @@ color: #fff;
 
 }
 .form-subscribe{
-  align-items: center;
-  gap: 24px;
+   gap: 24px;
  flex-direction: column;
 }
 .footer-social-title-subscribe {
@@ -725,8 +741,8 @@ color: #fff;
   border-radius: 4px;
   cursor: pointer;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  margin-top: 16px;
-   margin-right: 78px;
+    margin-right: 78px;
+    margin-left: 78px;
 }
 .footer-button:hover,
 .footer-button:focus {
@@ -1011,7 +1027,7 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width:767px;
+    max-width:767px;
 }
 
 /*-----------------------------desktop--------------------------------*/
@@ -1172,8 +1188,26 @@ header{
     justify-content: center; 
     position: relative;
     background-image: linear-gradient(rgba(46,47,66,0.7), rgba(46,47,66,0.7)), 
-    url('../images/people-office.jpg'),
-     url('../images/people-office-d-2.jpg');
+    url('../images/people-office.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: #2E2F42B2;
+    text-align: center;  
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.hero-section{
+    background-color: #2E2F42B2;
+    color: white;
+    padding: 188px 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center; 
+    position: relative;
+    background-image: linear-gradient(rgba(46,47,66,0.7), rgba(46,47,66,0.7)),
+   url('../images/people-office-d-2.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -1597,7 +1631,14 @@ header{
 .footer-content{
     display: flex;
 }
-
+.social-lists-icon{
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin-top: 8px;
+  padding: 0;
+   list-style: none;
+}
 /*-------------------*/
 .backdrop {
   position: fixed;
@@ -1666,9 +1707,8 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cu
 }
 .form-subscribe{
   display: flex;
-  align-items: baseline;
-   gap: 24px;
-  padding-right: 16px;
+    gap: 24px;
+   padding-right: 16px;
   padding-bottom: 16px;
   flex-direction: row;
 }
@@ -1938,6 +1978,7 @@ border: none;
     /*display: flex;*/
     box-sizing: border-box;
     align-items: center;
+    padding-left: 164px;
 
 }
 .burger-btn{
@@ -2080,17 +2121,35 @@ header{
   max-width: 768px;
   margin: 0 auto;
  }
-.hero-section{
+ .hero-section{
     background-color: #2E2F42B2;
     color: white;
-    padding: 112px 0;
+    padding: 188px 0;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center; 
     position: relative;
-    background-image: linear-gradient(rgba(46,47,66,0.7), rgba(46,47,66,0.7)), 
-    url('../images/people-office.jpg' ),
+    background-image: linear-gradient(rgba(46,47,66,0.7), rgba(46,47,66,0.7)),
+    url('../images/people-office.jpg' );
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: #2E2F42B2;
+    text-align: center;  
+    max-width: 768px;
+    margin:  auto;
+}
+.hero-section{
+    background-color: #2E2F42B2;
+    color: white;
+    padding: 188px 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center; 
+    position: relative;
+    background-image: linear-gradient(rgba(46,47,66,0.7), rgba(46,47,66,0.7)),
     url('../images/people-office-t-2.jpg');
     
     background-repeat: no-repeat;
