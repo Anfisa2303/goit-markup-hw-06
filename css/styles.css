@@ -74,6 +74,9 @@ header{
     display: none;
 }
 .hero-section{
+    background-image: linear-gradient(
+      to bottom,
+    );
     background-color: #2E2F42B2;
     color: white;
     padding: 96px 0;
@@ -92,6 +95,7 @@ header{
     max-width: 320px;
     margin: 0 auto;
 }
+@media (min-resolution: 2x) {
 .hero-section{
     background-color: #2E2F42B2;
     color: white;
@@ -111,6 +115,7 @@ header{
     max-width: 320px;
     margin: 0 auto; 
  }
+}
  main section{
         color: black; 
  }
@@ -1178,6 +1183,7 @@ header{
   padding-right: 15px;
   margin: 0 auto;
 }
+@media screen and (min-width: 1158px) {
 .hero-section{
     background-color: #2E2F42B2;
     color: white;
@@ -1197,6 +1203,8 @@ header{
     max-width: 1440px;
     margin: 0 auto;
 }
+}
+@media (min-resolution: 2x){
 .hero-section{
     background-color: #2E2F42B2;
     color: white;
@@ -1215,6 +1223,7 @@ header{
     text-align: center;  
     max-width: 1440px;
     margin: 0 auto;
+}
 }
     main section{
         color: black; 
@@ -2121,6 +2130,7 @@ header{
   max-width: 768px;
   margin: 0 auto;
  }
+ @media screen and (min-width: 768px) {
  .hero-section{
     background-color: #2E2F42B2;
     color: white;
@@ -2140,6 +2150,7 @@ header{
     max-width: 768px;
     margin:  auto;
 }
+@media (min-resolution: 2x){
 .hero-section{
     background-color: #2E2F42B2;
     color: white;
@@ -2160,6 +2171,8 @@ header{
     max-width: 768px;
     margin:  auto;
 }
+}
+ }
     main section{
         color: black; 
  }
